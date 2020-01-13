@@ -19,6 +19,7 @@ public class Main {
         String prefix = "[時給450円の占い師] ";
         String get_name = "";
         int get_age = 300;
+        String get_fortune;
 
 
         //////////////////
@@ -98,35 +99,42 @@ public class Main {
         TimeUnit.MILLISECONDS.sleep(3000);
         System.out.println(prefix + "何を占ってほしいの？ ([]の中の文字を入力してください)");
         System.out.println("[恋愛]について [仕事]について [健康]について [周囲からの評価]について");
-        String get_fortune = new java.util.Scanner(System.in).nextLine();
 
-        switch (get_fortune) {
-            case "恋愛":
-                System.out.println(prefix + "まだ開発中よ");
-                break;
+        while (true) {
+            get_fortune = new java.util.Scanner(System.in).nextLine();
+            switch (get_fortune) {
+                case "恋愛":
+                    System.out.println(prefix + "まだ開発中よ");
+                    break;
 
-            case "仕事":
-                System.out.println(prefix + "まだ開発中よ");
-                break;
+                case "仕事":
+                    System.out.println(prefix + "まだ開発中よ");
+                    break;
 
-            case "健康":
-                System.out.println(prefix + "まだ開発中よ");
-                break;
+                case "健康":
+                    System.out.println(prefix + "まだ開発中よ");
+                    break;
 
-            case "周囲からの評価":
-                System.out.println(prefix + "まだ開発中よ");
-                break;
+                case "周囲からの評価":
+                    System.out.println(prefix + "まだ開発中よ");
+                    break;
 
-            default:
-                TimeUnit.MILLISECONDS.sleep(1000);
-                System.out.println(prefix + "天邪鬼みたいな回答してんじゃねぇよ");
-                TimeUnit.MILLISECONDS.sleep(3000);
-                System.out.println(prefix + "こんなところですら人を信用出来ないから不幸だなんだ騒いで迷惑かけてるんだろ？");
-                TimeUnit.MILLISECONDS.sleep(5000);
-                System.out.println(prefix + "個人情報売られたくなかったらとっとと帰れ");
-                TimeUnit.MILLISECONDS.sleep(3000);
-                System.out.println(prefix + "このクソゴミムシ野郎が");
-                TimeUnit.MILLISECONDS.sleep(500);
+                case "":
+                    continue;
+
+                default:
+                    TimeUnit.MILLISECONDS.sleep(1000);
+                    System.out.println(prefix + "天邪鬼みたいな回答してんじゃねぇよ");
+                    TimeUnit.MILLISECONDS.sleep(3000);
+                    System.out.println(prefix + "こんなところですら人を信用出来ないから不幸だなんだ騒いで迷惑かけてるんだろ？");
+                    TimeUnit.MILLISECONDS.sleep(5000);
+                    System.out.println(prefix + "個人情報売られたくなかったらとっとと帰れ");
+                    TimeUnit.MILLISECONDS.sleep(3000);
+                    System.out.println(prefix + "このクソゴミムシ野郎が");
+                    TimeUnit.MILLISECONDS.sleep(500);
+                    break;
+            }
+            break;
         }
     }
 }
