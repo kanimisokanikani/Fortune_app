@@ -145,7 +145,7 @@ public class Main {
             get_Fortune = new java.util.Scanner(System.in).nextLine();
             switch (get_Fortune) {
                 case "恋愛":
-                    fortune_Teller("まだ開発中よ");
+                    fortuneLove.fortune_Love_Question_Main( get_Name, get_Age );
                     break;
 
                 case "仕事":
