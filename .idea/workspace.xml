@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Wordban.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -100,14 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1578892324961</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="メソッドを使い入力する文字を減らし、&#10;視認性を上げた。(ような気がする)&#10;コメントを少し追加&#10;文字数が減ったことにより、容量が減った代わりに多分負荷が上がった">
+      <created>1578983198507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578983198507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="最初のコミット" />
     <MESSAGE value="バグを直し独立させた" />
     <MESSAGE value="占い内容を入力するとき、前回の数字入力で勢い余ってEnterを2回押してしまい&#10;理不尽にばばぁから怒られることを無くした" />
-    <option name="LAST_COMMIT_MESSAGE" value="占い内容を入力するとき、前回の数字入力で勢い余ってEnterを2回押してしまい&#10;理不尽にばばぁから怒られることを無くした" />
+    <MESSAGE value="メソッドを使い入力する文字を減らし、&#10;視認性を上げた。(ような気がする)&#10;コメントを少し追加" />
+    <MESSAGE value="メソッドを使い入力する文字を減らし、&#10;視認性を上げた。(ような気がする)&#10;コメントを少し追加&#10;文字数が減ったことにより、容量が減った代わりに多分負荷が上がった" />
+    <option name="LAST_COMMIT_MESSAGE" value="メソッドを使い入力する文字を減らし、&#10;視認性を上げた。(ような気がする)&#10;コメントを少し追加&#10;文字数が減ったことにより、容量が減った代わりに多分負荷が上がった" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578889996875">
@@ -119,39 +129,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1578890104987" />
-    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1578892324773">
+    <state x="313" y="27" key="CommitChangelistDialog2" timestamp="1579629702305">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578892324773" />
+    <state x="313" y="27" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579629702305" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1578981904366">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579445768054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578981904366" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579445768054" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1578981904364">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579445768053">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578981904364" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579445768053" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1578981904363">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579445768052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578981904363" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579445768052" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578889481868" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1578981904366">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579445768053">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578981904366" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579445768053" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1578890137318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578892327057">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578983200312">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578892327057" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578983200312" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />
