@@ -1,6 +1,10 @@
 package fortune.main.main;
 
 import fortune.main.wordban.Wordban; //FQCNのインポート Wordban Classを使用する時に使う
+import fortune.main.fortune.fortuneLove; //FQCNのインポート fortuneLove Classを使用する時に使う
+import fortune.main.fortune.fortuneWork; //FQCNのインポート fortuneWork Classを使用する時に使う
+import fortune.main.fortune.fortuneHealth; //FQCNのインポート fortuneHealth Classを使用する時に使う
+import fortune.main.fortune.fortuneEvaluate; //FQCNのインポート fortuneEvaluate Classを使用する時に使う
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -162,12 +166,16 @@ public class Main {
                 default:
                     cool_Time(1000);
                     fortune_Teller("天邪鬼みたいな回答してんじゃねぇよ");
+
                     cool_Time(3000);
                     fortune_Teller("こんなところですら人を信用出来ないから不幸だなんだ騒いで迷惑かけてるんだろ？");
+
                     cool_Time(5000);
                     fortune_Teller("個人情報売られたくなかったらとっとと帰れ");
+
                     cool_Time(3000);
                     fortune_Teller("このクソゴミムシ野郎が");
+
                     cool_Time(500);
                     break;
             }
