@@ -6,10 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="使用できない文字を制限することに成功&#10;苗字 名前を別ける仕事をする">
+    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wordban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordban.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wordban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/wordban/Wordban.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Fortune" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="fortune.main.main.Main" />
       <module name="Fortune" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579631020188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="記号と数字を禁止した&#10;文字列を禁止し始めると面倒なので、いつかやる(多分やらない)&#10;苗字と名前を分割し、エラーメッセージで苗字名前がわかるようになった&#10;後は肝心の占いコードを書くだけ">
+      <created>1579634981940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579634981941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,51 +141,52 @@
     <MESSAGE value="メソッドを使い入力する文字を減らし、&#10;視認性を上げた。(ような気がする)&#10;コメントを少し追加&#10;文字数が減ったことにより、容量が減った代わりに多分負荷が上がった" />
     <MESSAGE value="名前に使用できない文字が使われた場合&#10;禁止するメソッドをテスト導入&#10;まだチェックをしていなく、バックアップのためにコミット&#10;というかこのままだと一回しかチェックしてくれない" />
     <MESSAGE value="使用できない文字を制限することに成功&#10;苗字 名前を別ける仕事をする" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用できない文字を制限することに成功&#10;苗字 名前を別ける仕事をする" />
+    <MESSAGE value="記号と数字を禁止した&#10;文字列を禁止し始めると面倒なので、いつかやる(多分やらない)&#10;苗字と名前を分割し、エラーメッセージで苗字名前がわかるようになった&#10;後は肝心の占いコードを書くだけ" />
+    <option name="LAST_COMMIT_MESSAGE" value="記号と数字を禁止した&#10;文字列を禁止し始めると面倒なので、いつかやる(多分やらない)&#10;苗字と名前を分割し、エラーメッセージで苗字名前がわかるようになった&#10;後は肝心の占いコードを書くだけ" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578889996875">
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579636180875">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578889996875" />
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636180875" />
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1578889475687" />
-    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578890104987">
+    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579636179223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1578890104987" />
-    <state x="313" y="27" key="CommitChangelistDialog2" timestamp="1579632445608">
+    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1579634981713">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="313" y="27" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579632445608" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579634981713" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579634618014">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579637115155">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579634618014" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579637115155" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579634618013">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579637115154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579634618013" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579637115154" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579634618012">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579637115153">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579634618012" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579637115153" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578889481868" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579634618013">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579637115154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579634618013" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579637115154" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1578890137318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579631021744">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579634984271">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579631021744" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579634984271" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />

@@ -1,3 +1,6 @@
+package fortune.main.main;
+
+import fortune.main.wordban.Wordban; //FQCNのインポート Wordban Classを使用する時に使う
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -83,6 +86,7 @@ public class Main {
 
                 cool_Time(1750);
                 fortune_Teller("結局あんたは何歳なのよ");
+
                 continue;
             }
             if (get_Age > 130) { //131歳以上だった場合無限ループ
@@ -97,6 +101,22 @@ public class Main {
 
                 cool_Time(1750);
                 fortune_Teller("結局あんたは何歳なのよ");
+
+                continue;
+            } else if (0 > get_Age) { //-1以下だった場合無限ループ
+                cool_Time(1200);
+                fortune_Teller("あんた人生フライングしてない？");
+
+                cool_Time(2000);
+                fortune_Teller("人生二週目だか知らないけど");
+
+                cool_Time(2000);
+                fortune_Teller("ちゃんと正規の方法で人生をプレイングしてよ");
+
+                cool_Time(1750);
+                fortune_Teller("結局あんたは何歳なのよ");
+
+                continue;
             } else {
                 break;
             }
