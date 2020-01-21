@@ -14,22 +14,24 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
+        ////////////////////
+        // 変数作成フェーズ //
+        ////////////////////
+
+        String prefix = "[時給450円の占い師] ";
+        String last_Name = ""; //苗字
+        String first_Name = ""; //名前
+        String get_Name = ""; //フルネーム
+        int get_Age = 300;
+        String get_Fortune;
+
+
         //////////////////////
         // 占い屋開店フェーズ //
         //////////////////////
 
         cool_Time(400);
         System.out.println("[お買い得!! 石原良純レベルでよく当たる! 占いばぁやの店] 錦糸町支店が開店しました");
-
-
-        ////////////////////
-        // 変数作成フェーズ //
-        ////////////////////
-
-        String prefix = "[時給450円の占い師] ";
-        String get_Name = "";
-        int get_Age = 300;
-        String get_Fortune;
 
 
         //////////////////
@@ -39,19 +41,17 @@ public class Main {
         cool_Time(6000);
         fortune_Teller("あなたの苗字は何かしら？");
 
-        get_Name = Wordban.name_Scanner();
+        last_Name = Wordban.name_Scanner("苗字");
 
-        /*cool_Time(500);
-        fortune_Teller("無言貫き通されてもあたし困るんですけど!!");
 
-        cool_Time(2750);
-        fortune_Teller("コミュ障クソ陰キャカス野郎でも");
+        cool_Time(500);
+        fortune_Teller("名前は何かしら？");
 
-        cool_Time(3000);
-        fortune_Teller("自分の名前くらいは名乗ってくれよぉ!!");
+        first_Name = Wordban.name_Scanner("名前");
 
-        cool_Time(2000);
-        fortune_Teller("結局あんたの名前はなんなのよ");*/
+
+        get_Name = last_Name + " " + first_Name;
+
 
         cool_Time(1000);
         System.out.println(prefix + get_Name + " さんね・・・");
