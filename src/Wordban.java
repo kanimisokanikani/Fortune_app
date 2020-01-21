@@ -5,14 +5,21 @@ public class Wordban {
 
     static List<String> ban_Name_List;
 
-    public static void name_Scanner(String set_name){
+    public static String name_Scanner(){
 
         ban_Name_List = new ArrayList<>();
         ban_Name_Create();
 
-        if(ban_Name_Check(set_name)){ //禁止ワードが含まれていたら メッセージを流して読み取り直し
-            System.out.println("そんな名前はあたしが許しまへんで！");
-            return; //メソッドを切り上げる
+        String get_Name;
+
+        while (true) {
+            get_Name = new java.util.Scanner(System.in).nextLine();
+            if(ban_Name_Check(get_Name)){ //禁止ワードが含まれていたら メッセージを流して読み取り直し
+                System.out.println("そんな名前はあたしが許しまへんで！");
+                continue;
+            } else {
+                return get_Name; //メソッドを切り上げる
+            }
         }
     }
 

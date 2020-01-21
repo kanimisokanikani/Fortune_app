@@ -39,27 +39,19 @@ public class Main {
         cool_Time(6000);
         fortune_Teller("あなたの苗字は何かしら？");
 
-        get_Name = new java.util.Scanner(System.in).nextLine();
-        Wordban.name_Scanner(get_Name);
+        get_Name = Wordban.name_Scanner();
 
-        while (true) {//名前が何も無い場合無限ループ
+        /*cool_Time(500);
+        fortune_Teller("無言貫き通されてもあたし困るんですけど!!");
 
-            if (get_Name.equals("")) {
-                cool_Time(500);
-                fortune_Teller("無言貫き通されてもあたし困るんですけど!!");
+        cool_Time(2750);
+        fortune_Teller("コミュ障クソ陰キャカス野郎でも");
 
-                cool_Time(2750);
-                fortune_Teller("コミュ障クソ陰キャカス野郎でも");
+        cool_Time(3000);
+        fortune_Teller("自分の名前くらいは名乗ってくれよぉ!!");
 
-                cool_Time(3000);
-                fortune_Teller("自分の名前くらいは名乗ってくれよぉ!!");
-
-                cool_Time(2000);
-                fortune_Teller("結局あんたの名前はなんなのよ");
-            } else {
-                break;
-            }
-        }
+        cool_Time(2000);
+        fortune_Teller("結局あんたの名前はなんなのよ");*/
 
         cool_Time(1000);
         System.out.println(prefix + get_Name + " さんね・・・");
