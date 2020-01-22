@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ">
+    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" afterDir="false" />
     </list>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579644436430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも">
+      <created>1579693100512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693100512</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,7 +171,8 @@
     <MESSAGE value="年齢を-の位まで行けて、人生フライング組が大量に殺到してしまうので&#10;フライングせずにちゃんと子宮を通ろうねと優しい言葉でささやいてあげた。&#10;聖人君子にUNO宣言した男になります。" />
     <MESSAGE value="新クラスを大量に追加し、importもした&#10;これから仕様を考え、オブジェクト指向も狙えるなら狙っていく" />
     <MESSAGE value="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ" />
-    <option name="LAST_COMMIT_MESSAGE" value="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ" />
+    <MESSAGE value="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも" />
+    <option name="LAST_COMMIT_MESSAGE" value="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579636180875">
@@ -176,10 +184,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
-    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2" timestamp="1579692290289">
+    <state x="403" y="44" width="752" height="825" key="CommitChangelistDialog2" timestamp="1579693100323">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579692290289" />
+    <state x="403" y="44" width="752" height="825" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579693100323" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579691913665">
       <screen x="0" y="0" width="1440" height="900" />
@@ -205,10 +213,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579644438234">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579693102268">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579644438234" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579693102268" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />

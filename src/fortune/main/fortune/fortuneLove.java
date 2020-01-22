@@ -9,7 +9,8 @@ public class fortuneLove {
         // 変数作成フェーズ //
         ////////////////////
 
-        String answer = "";
+        String string_Answer = "";
+        int int_Answer = -1;
         int fortune_Result = 0;
 
 
@@ -41,8 +42,8 @@ public class fortuneLove {
         ////////////////
 
         while (true) { //1回目の尋問 YESなら陰キャポインツ増加
-            answer = new java.util.Scanner(System.in).nextLine();
-            switch (answer) {
+            string_Answer = new java.util.Scanner(System.in).nextLine();
+            switch (string_Answer) {
                 case "YES":
                     Main.cool_Time(300);
                     Main.fortune_Teller("あっ・・・");
@@ -90,7 +91,7 @@ public class fortuneLove {
         Main.cool_Time(3000);
         System.out.println("");
 
-        if (answer == "YES") {
+        if (string_Answer == "YES") {
             Main.cool_Time(2000);
             Main.fortune_Teller("童貞なら辛い質問だけど・・・");
         } else {
@@ -98,11 +99,41 @@ public class fortuneLove {
             Main.fortune_Teller("あんたならこの質問耐えられるわね...");
         }
 
-        answer ="";
+        string_Answer ="";
 
         Main.cool_Time(1800);
-        Main.fortune_Teller("彼女は何人居ましたか？");
+        Main.fortune_Teller("彼女は何人居たの？");
 
+        Main.cool_Time(100);
+        System.out.println("数字で答えてください");
+
+
+        /////////////////////
+        // 彼女製造業チェック //
+        /////////////////////
+
+        while (true) {
+            string_Answer = new java.util.Scanner(System.in).nextLine();
+            switch (string_Answer) {
+                case "YES":
+                    break;
+
+                case "NO":
+                    break;
+
+                case "":
+                    continue;
+
+                default:
+                    Main.cool_Time(750);
+                    Main.fortune_Teller("[YES] か [NO] で答えろっつってんじゃん!!");
+
+                    Main.cool_Time(1250);
+                    Main.fortune_Teller("二択すら答えられない無能が!!!!");
+                    continue;
+            }
+            break;
+        }
 
 
 
@@ -121,8 +152,8 @@ public class fortuneLove {
 
 
         while (true) {
-            answer = new java.util.Scanner(System.in).nextLine();
-            switch (answer) {
+            string_Answer = new java.util.Scanner(System.in).nextLine();
+            switch (string_Answer) {
                 case "YES":
                     break;
 
