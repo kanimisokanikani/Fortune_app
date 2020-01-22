@@ -90,8 +90,8 @@ public class Main {
 
                 cool_Time(1750);
                 fortune_Teller("結局あんたは何歳なのよ");
-
                 continue;
+
             }
             if (get_Age > 130) { //131歳以上だった場合無限ループ
                 cool_Time(1500);
@@ -105,8 +105,8 @@ public class Main {
 
                 cool_Time(1750);
                 fortune_Teller("結局あんたは何歳なのよ");
-
                 continue;
+
             } else if (0 > get_Age) { //-1以下だった場合無限ループ
                 cool_Time(1200);
                 fortune_Teller("あんた人生フライングしてない？");
@@ -119,8 +119,8 @@ public class Main {
 
                 cool_Time(1750);
                 fortune_Teller("結局あんたは何歳なのよ");
-
                 continue;
+
             } else {
                 break;
             }

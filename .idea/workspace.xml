@@ -9,6 +9,7 @@
     <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579693100512</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="気分でコミット">
+      <created>1579694641537</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579694641537</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,55 +180,60 @@
     <MESSAGE value="新クラスを大量に追加し、importもした&#10;これから仕様を考え、オブジェクト指向も狙えるなら狙っていく" />
     <MESSAGE value="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ" />
     <MESSAGE value="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも" />
-    <option name="LAST_COMMIT_MESSAGE" value="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも" />
+    <MESSAGE value="気分でコミット" />
+    <option name="LAST_COMMIT_MESSAGE" value="気分でコミット" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579636180875">
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579696274474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636180875" />
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579696274474" />
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1578889475687" />
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579636179223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
-    <state x="403" y="44" width="752" height="825" key="CommitChangelistDialog2" timestamp="1579693100323">
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2" timestamp="1579709698775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="403" y="44" width="752" height="825" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579693100323" />
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579709698775" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579691913665">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579716376233">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579691913665" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579716376233" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579691913664">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579716376232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579691913664" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579716376232" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579691913663">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579716376232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579691913663" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579716376232" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578889481868" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579691913664">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579716376233">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579691913664" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579716376233" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1578890137318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579693102268">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579694643155">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579693102268" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579694643155" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="378" y="85" width="683" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578888276349" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579716376002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579716376002" />
   </component>
 </project>

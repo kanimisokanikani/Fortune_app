@@ -43,6 +43,7 @@ public class fortuneLove {
 
         while (true) { //1回目の尋問 YESなら陰キャポインツ増加
             string_Answer = new java.util.Scanner(System.in).nextLine();
+
             switch (string_Answer) {
                 case "YES":
                     Main.cool_Time(300);
@@ -54,7 +55,8 @@ public class fortuneLove {
                     Main.cool_Time(3500);
                     Main.fortune_Teller("なんかごめんね・・・");
 
-                    fortune_Result ++; //点数が増えれば増えるほど運が悪くなる
+                    fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
+
                     break;
 
                 case "NO":
@@ -70,6 +72,7 @@ public class fortuneLove {
                     break;
 
                 case "":
+
                     continue;
 
                 default:
@@ -78,6 +81,7 @@ public class fortuneLove {
 
                     Main.cool_Time(1800);
                     Main.fortune_Teller("二択すら答えられない無能が!!!!");
+
                     continue;
             }
             break;
@@ -89,13 +93,13 @@ public class fortuneLove {
         ///////////////
 
         Main.cool_Time(3000);
-        System.out.println("");
+        Main.fortune_Teller("...次の質問いくわね");
 
-        if (string_Answer == "YES") {
-            Main.cool_Time(2000);
+        if ( string_Answer.equals("YES") ) {
+            Main.cool_Time(2500);
             Main.fortune_Teller("童貞なら辛い質問だけど・・・");
         } else {
-            Main.cool_Time(2000);
+            Main.cool_Time(2500);
             Main.fortune_Teller("あんたならこの質問耐えられるわね...");
         }
 
@@ -113,26 +117,141 @@ public class fortuneLove {
         /////////////////////
 
         while (true) {
-            string_Answer = new java.util.Scanner(System.in).nextLine();
-            switch (string_Answer) {
-                case "YES":
-                    break;
+            try {
+                int_Answer = new java.util.Scanner(System.in).nextInt();
 
-                case "NO":
-                    break;
+            } catch (Exception e) { //例外が起きたらエラーメッセージを流す
+                Main.cool_Time(1000);
+                Main.fortune_Teller("あんた居ないからって");
 
-                case "":
-                    continue;
+                Main.cool_Time(1750);
+                Main.fortune_Teller("数字以外でごまかすのやめなさい!");
 
-                default:
-                    Main.cool_Time(750);
-                    Main.fortune_Teller("[YES] か [NO] で答えろっつってんじゃん!!");
+                Main.cool_Time(2000);
+                Main.fortune_Teller("数字で言わないとあたしゃ理解できないよ!!");
 
-                    Main.cool_Time(1250);
-                    Main.fortune_Teller("二択すら答えられない無能が!!!!");
-                    continue;
+                Main.cool_Time(1750);
+                Main.fortune_Teller("結局あんた何人居たのよ");
+
+                continue;
             }
-            break;
+            if (0 > int_Answer) { // -1人以下だったら無限ループ
+                Main.cool_Time(1500);
+                Main.fortune_Teller("あんた人生で何をしたら");
+
+                Main.cool_Time(1600);
+                Main.fortune_Teller("そんなスコアになるのよ!");
+
+                Main.cool_Time(2500);
+                Main.fortune_Teller("人生にプロアクションリプレイを使ってる暇があるなら");
+
+                Main.cool_Time(2000);
+                Main.fortune_Teller("ちゃんと彼女を作る努力をしなさい!!");
+
+                Main.cool_Time(1750);
+                Main.fortune_Teller("結局あんた何人居たのよ");
+
+                continue;
+            } else { //ここから人数選別
+                switch (int_Answer) {
+                    case 0 :
+                        if (fortune_Result > 0) { //童貞チェックで YES だったらこっち
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller("でしょうね");
+
+                            Main.cool_Time(1850);
+                            Main.fortune_Teller("もしそれで彼女いたらびっくりするわ");
+
+                            Main.cool_Time(1500);
+                            Main.fortune_Teller("...");
+
+                            Main.cool_Time(3000);
+                            Main.fortune_Teller("ま、まぁ人生これからよね・・・");
+
+                            fortune_Result ++; //点数が増えれば増えるほど運が悪くなる
+                        } else { //童貞では無い場合
+                            Main.cool_Time(1500);
+                            Main.fortune_Teller("えぇ!?");
+
+                            Main.cool_Time(1300);
+                            Main.fortune_Teller("あんた彼女いないのにヤってんの!!?");
+
+                            Main.cool_Time(1200);
+                            Main.fortune_Teller("どこでヤってきたん?");
+
+                            Main.cool_Time(1100);
+                            Main.fortune_Teller("歌舞伎町? 飛田新地?");
+
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller("もしくは円光?");
+
+                            Main.cool_Time(2500);
+                            Main.fortune_Teller("まぁどうせ童貞が前回の質問で嘘ついたんだろうけど");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("ﾄﾞｷｨっとしたそこの君ｨ");
+
+                            Main.cool_Time(1750);
+                            Main.fortune_Teller("質問にはちゃんと真実を言おうな");
+
+                            fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
+                        }
+
+                        break;
+
+                    case 1 :
+                    case 2 :
+                    case 3 :
+                        if (fortune_Result > 0) { //童貞ならこっち
+                            Main.cool_Time(1600);
+                            Main.fortune_Teller("へ、へぇ・・・");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("居たことあるんだぁ・・・");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("もうちょっとアタックすれば卒業できるかもねぇ");
+
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller("ファイト");
+
+                            fortune_Result --; //ボーナス 点数を一つ減らしてあげる
+                        } else { //童貞卒業者
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("...");
+
+                            Main.cool_Time(1500);
+                            Main.fortune_Teller("普通すぎて言うことないわよ!");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("ここきた意味ある？");
+
+                            Main.cool_Time(1900);
+                            Main.fortune_Teller("まぁ..おめでとう...");
+                        }
+
+                        break;
+
+                    case 4 :
+                    case 5 :
+                    case 6 :
+                    case 7 :
+                    case 8 :
+                    case 9 :
+                    case 10 :
+                    case 11 :
+                    case 12 :
+                    case 13 :
+                    case 14 :
+                    case 15 :
+                    case 16 :
+                    case 17 :
+                    case 18 :
+                    case 19 :
+                    case 20 :
+                    default :
+                }
+            }
         }
 
 
@@ -143,35 +262,10 @@ public class fortuneLove {
 
 
 
-        Main.cool_Time(1000);
-        Main.fortune_Teller("ぁたし実わぁ18さぃなんだよね( ´∀｀)");
+        //Main.cool_Time(1000);
+        //Main.fortune_Teller("ぁたし実わぁ18さぃなんだよね( ´∀｀)");
 
-        Main.cool_Time(1500);
-        Main.fortune_Teller("そんなに困ってるならヤっちゃう？(●´ω｀●)"); //YESはぼったくられる 凶
-
-
-
-        while (true) {
-            string_Answer = new java.util.Scanner(System.in).nextLine();
-            switch (string_Answer) {
-                case "YES":
-                    break;
-
-                case "NO":
-                    break;
-
-                case "":
-                    continue;
-
-                default:
-                    Main.cool_Time(750);
-                    Main.fortune_Teller("[YES] か [NO] で答えろっつってんじゃん!!");
-
-                    Main.cool_Time(1250);
-                    Main.fortune_Teller("二択すら答えられない無能が!!!!");
-                    continue;
-            }
-            break;
-        }
+        //Main.cool_Time(1500);
+        //Main.fortune_Teller("そんなに困ってるならヤっちゃう？(●´ω｀●)"); //YESはぼったくられる 凶
     }
 }

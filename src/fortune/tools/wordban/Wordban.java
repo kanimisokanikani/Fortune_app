@@ -1,4 +1,4 @@
-package fortune.main.wordban;
+package fortune.tools.wordban;
 
 import fortune.main.main.Main; //FQCNのインポート Main Classを使用する時に使う
 import java.util.ArrayList;
