@@ -11,6 +11,8 @@ public class fortuneLove {
 
         String string_Answer = "";
         int int_Answer = -1;
+        boolean virgin;
+        int girl_Friend;
         int fortune_Result = 0;
 
 
@@ -55,6 +57,7 @@ public class fortuneLove {
                     Main.cool_Time(3500);
                     Main.fortune_Teller("なんかごめんね・・・");
 
+                    virgin = true;
                     fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
 
                     break;
@@ -68,6 +71,8 @@ public class fortuneLove {
 
                     Main.cool_Time(3500);
                     Main.fortune_Teller("かわいそ");
+
+                    virgin = false;
 
                     break;
 
@@ -87,6 +92,7 @@ public class fortuneLove {
             break;
         }
 
+        string_Answer ="";
 
         ///////////////
         // 尋問タイム //
@@ -95,15 +101,14 @@ public class fortuneLove {
         Main.cool_Time(3000);
         Main.fortune_Teller("...次の質問いくわね");
 
-        if ( string_Answer.equals("YES") ) {
-            Main.cool_Time(2500);
-            Main.fortune_Teller("童貞なら辛い質問だけど・・・");
-        } else {
+        if (virgin == true) {
             Main.cool_Time(2500);
             Main.fortune_Teller("あんたならこの質問耐えられるわね...");
+        } else {
+            Main.cool_Time(2300);
+            Main.fortune_Teller("童貞なら辛い質問だけど・・・");
         }
 
-        string_Answer ="";
 
         Main.cool_Time(1800);
         Main.fortune_Teller("彼女は何人居たの？");
@@ -155,7 +160,7 @@ public class fortuneLove {
             } else { //ここから人数選別
                 switch (int_Answer) {
                     case 0 :
-                        if (fortune_Result > 0) { //童貞チェックで YES だったらこっち
+                        if (virgin == true) { //童貞チェックで YES だったらこっち
                             Main.cool_Time(1000);
                             Main.fortune_Teller("でしょうね");
 
@@ -168,6 +173,7 @@ public class fortuneLove {
                             Main.cool_Time(3000);
                             Main.fortune_Teller("ま、まぁ人生これからよね・・・");
 
+                            girl_Friend = int_Answer;
                             fortune_Result ++; //点数が増えれば増えるほど運が悪くなる
                         } else { //童貞では無い場合
                             Main.cool_Time(1500);
@@ -194,6 +200,7 @@ public class fortuneLove {
                             Main.cool_Time(1750);
                             Main.fortune_Teller("質問にはちゃんと真実を言おうな");
 
+                            girl_Friend = int_Answer;
                             fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
                         }
 
@@ -202,7 +209,7 @@ public class fortuneLove {
                     case 1 :
                     case 2 :
                     case 3 :
-                        if (fortune_Result > 0) { //童貞ならこっち
+                        if (virgin == true) { //童貞ならこっち
                             Main.cool_Time(1600);
                             Main.fortune_Teller("へ、へぇ・・・");
 
@@ -215,6 +222,7 @@ public class fortuneLove {
                             Main.cool_Time(1000);
                             Main.fortune_Teller("ファイト");
 
+                            girl_Friend = int_Answer;
                             fortune_Result --; //ボーナス 点数を一つ減らしてあげる
                         } else { //童貞卒業者
                             Main.cool_Time(1800);
@@ -228,6 +236,8 @@ public class fortuneLove {
 
                             Main.cool_Time(1900);
                             Main.fortune_Teller("まぁ..おめでとう...");
+
+                            girl_Friend = int_Answer;
                         }
 
                         break;
@@ -235,6 +245,14 @@ public class fortuneLove {
                     case 4 :
                     case 5 :
                     case 6 :
+                        if (virgin == true) { //童貞ならこっち
+                            girl_Friend = int_Answer;
+                        } else { //童貞卒業者
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("...");
+                            girl_Friend = int_Answer;
+                        }
+
                     case 7 :
                     case 8 :
                     case 9 :
