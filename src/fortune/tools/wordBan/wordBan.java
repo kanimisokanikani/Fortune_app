@@ -1,10 +1,10 @@
-package fortune.tools.wordban;
+package fortune.tools.wordBan;
 
 import fortune.main.main.Main; //FQCNのインポート Main Classを使用する時に使う
 import java.util.ArrayList;
 import java.util.List;
 
-public class Wordban {
+public class wordBan {
 
     static List<String> ban_Name_List;
 

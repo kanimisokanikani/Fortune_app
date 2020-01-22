@@ -9,6 +9,8 @@
     <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/tools/wordban/Wordban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/tools/wordBan/wordBan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579717606885</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="童貞チェック表と彼女の人数を記録するようにした&#10;結果発表時に記録に応じて称号が変わるように">
+      <created>1579718845231</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579718845231</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,7 +197,8 @@
     <MESSAGE value="恋愛の質問が一つできたので、バックアップのためコミット&#10;占えることが一つ二つと消えていくかも" />
     <MESSAGE value="気分でコミット" />
     <MESSAGE value="恋愛占いに着手した&#10;点数システムを作り、できるだけ公平に点数をつけるようにする&#10;童貞ポインツとか質問によって最後の称号が変わるようにする&#10;TODO: 点数の結果によって確立が変わるようにする" />
-    <option name="LAST_COMMIT_MESSAGE" value="恋愛占いに着手した&#10;点数システムを作り、できるだけ公平に点数をつけるようにする&#10;童貞ポインツとか質問によって最後の称号が変わるようにする&#10;TODO: 点数の結果によって確立が変わるようにする" />
+    <MESSAGE value="童貞チェック表と彼女の人数を記録するようにした&#10;結果発表時に記録に応じて称号が変わるように" />
+    <option name="LAST_COMMIT_MESSAGE" value="童貞チェック表と彼女の人数を記録するようにした&#10;結果発表時に記録に応じて称号が変わるように" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579696274474">
@@ -200,39 +210,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
-    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2" timestamp="1579717606715">
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2" timestamp="1579718845067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579717606715" />
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579718845067" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579716376233">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579719908107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579716376233" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579719908107" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579716376232">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579719908106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579716376232" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579719908106" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579716376232">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579719908105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579716376232" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579719908105" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578889481868" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579716376233">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579719908106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579716376233" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579719908106" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1578890137318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579717608712">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579718846454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579717608712" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579718846454" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />

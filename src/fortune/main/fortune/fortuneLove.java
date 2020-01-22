@@ -3,7 +3,7 @@ package fortune.main.fortune;
 import fortune.main.main.Main; //FQCNのインポート Main Classを使用する時に使う
 
 public class fortuneLove {
-    public static void fortune_Love_Question_Main (String name, int age) throws InterruptedException {
+    public static void fortune_Love_Question (String name, int age) throws InterruptedException {
 
         ////////////////////
         // 変数作成フェーズ //
@@ -92,7 +92,7 @@ public class fortuneLove {
             break;
         }
 
-        string_Answer ="";
+        string_Answer = "";
 
         ///////////////
         // 尋問タイム //
@@ -110,7 +110,7 @@ public class fortuneLove {
         }
 
 
-        Main.cool_Time(1800);
+        Main.cool_Time(2200);
         Main.fortune_Teller("彼女は何人居たの？");
 
         Main.cool_Time(100);
@@ -164,10 +164,10 @@ public class fortuneLove {
                             Main.cool_Time(1000);
                             Main.fortune_Teller("でしょうね");
 
-                            Main.cool_Time(1850);
+                            Main.cool_Time(2300);
                             Main.fortune_Teller("もしそれで彼女いたらびっくりするわ");
 
-                            Main.cool_Time(1500);
+                            Main.cool_Time(2500);
                             Main.fortune_Teller("...");
 
                             Main.cool_Time(3000);
@@ -201,7 +201,7 @@ public class fortuneLove {
                             Main.fortune_Teller("質問にはちゃんと真実を言おうな");
 
                             girl_Friend = int_Answer;
-                            fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
+                            fortune_Result += 2;
                         }
 
                         break;
@@ -216,10 +216,10 @@ public class fortuneLove {
                             Main.cool_Time(2000);
                             Main.fortune_Teller("居たことあるんだぁ・・・");
 
-                            Main.cool_Time(1800);
+                            Main.cool_Time(2200);
                             Main.fortune_Teller("もうちょっとアタックすれば卒業できるかもねぇ");
 
-                            Main.cool_Time(1000);
+                            Main.cool_Time(1800);
                             Main.fortune_Teller("ファイト");
 
                             girl_Friend = int_Answer;
@@ -246,10 +246,35 @@ public class fortuneLove {
                     case 5 :
                     case 6 :
                         if (virgin == true) { //童貞ならこっち
-                            girl_Friend = int_Answer;
-                        } else { //童貞卒業者
+                            Main.cool_Time(1300);
+                            Main.fortune_Teller("えぇ...");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("ほんとにぃ？");
+
                             Main.cool_Time(1800);
-                            Main.fortune_Teller("...");
+                            Main.fortune_Teller("それだけアタックチャンスあったのに");
+
+                            Main.cool_Time(1200);
+                            Main.fortune_Teller("なぜ童貞なんだい");
+
+                            Main.cool_Time(2100);
+                            Main.fortune_Teller("あたしゃあ不思議でならないよ");
+
+                            fortune_Result += 3;
+                            girl_Friend = int_Answer;
+
+                        } else { //童貞卒業者
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller("割と彼女いたのね・・・");
+
+                            Main.cool_Time(1600);
+                            Main.fortune_Teller("陽キャオーラが眩しいわぁ...");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("この調子で頑張んなさいよ");
+
+                            fortune_Result --;
                             girl_Friend = int_Answer;
                         }
 
@@ -270,7 +295,10 @@ public class fortuneLove {
                     default :
                 }
             }
+            break;
         }
+
+        int_Answer = -1;
 
 
 

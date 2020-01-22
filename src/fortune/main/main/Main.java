@@ -1,10 +1,8 @@
 package fortune.main.main;
 
-import fortune.main.wordban.Wordban; //FQCNのインポート Wordban Classを使用する時に使う
+import fortune.tools.wordban.wordBan; //FQCNのインポート wordBan Classを使用する時に使う
 import fortune.main.fortune.fortuneLove; //FQCNのインポート fortuneLove Classを使用する時に使う
-import fortune.main.fortune.fortuneWork; //FQCNのインポート fortuneWork Classを使用する時に使う
-import fortune.main.fortune.fortuneHealth; //FQCNのインポート fortuneHealth Classを使用する時に使う
-import fortune.main.fortune.fortuneEvaluate; //FQCNのインポート fortuneEvaluate Classを使用する時に使う
+
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -48,13 +46,13 @@ public class Main {
         cool_Time(6000);
         fortune_Teller("あなたの苗字は何かしら？");
 
-        last_Name = Wordban.name_Scanner("苗字");
+        last_Name = wordBan.name_Scanner("苗字");
 
 
         cool_Time(500);
         fortune_Teller("名前は何かしら？");
 
-        first_Name = Wordban.name_Scanner("名前");
+        first_Name = wordBan.name_Scanner("名前");
 
 
         get_Name = last_Name + " " + first_Name;
@@ -145,7 +143,7 @@ public class Main {
             get_Fortune = new java.util.Scanner(System.in).nextLine();
             switch (get_Fortune) {
                 case "恋愛":
-                    fortuneLove.fortune_Love_Question_Main( get_Name, get_Age );
+                    fortuneLove.fortune_Love_Question( get_Name, get_Age );
                     break;
 
                 case "仕事":
