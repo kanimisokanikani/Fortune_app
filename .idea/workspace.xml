@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
+    <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fortune/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579639317074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ">
+      <created>1579644436430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579644436430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,7 +163,8 @@
     <MESSAGE value="記号と数字を禁止した&#10;文字列を禁止し始めると面倒なので、いつかやる(多分やらない)&#10;苗字と名前を分割し、エラーメッセージで苗字名前がわかるようになった&#10;後は肝心の占いコードを書くだけ" />
     <MESSAGE value="年齢を-の位まで行けて、人生フライング組が大量に殺到してしまうので&#10;フライングせずにちゃんと子宮を通ろうねと優しい言葉でささやいてあげた。&#10;聖人君子にUNO宣言した男になります。" />
     <MESSAGE value="新クラスを大量に追加し、importもした&#10;これから仕様を考え、オブジェクト指向も狙えるなら狙っていく" />
-    <option name="LAST_COMMIT_MESSAGE" value="新クラスを大量に追加し、importもした&#10;これから仕様を考え、オブジェクト指向も狙えるなら狙っていく" />
+    <MESSAGE value="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ" />
+    <option name="LAST_COMMIT_MESSAGE" value="色々なルート作り、ルートによって大吉から凶までの確率が変わる仕様にした&#10;原型が多少できたのでプッシュ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579636180875">
@@ -169,39 +176,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
-    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2" timestamp="1579639316866">
+    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2" timestamp="1579692290289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579639316866" />
+    <state x="409" y="23" width="752" height="825" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579692290289" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579644364919">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579691913665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579644364919" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579691913665" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579644364917">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1579691913664">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579644364917" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579691913664" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579644364916">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1579691913663">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579644364916" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579691913663" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578889481868" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579644364918">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1579691913664">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579644364918" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579691913664" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578889481869" />
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1578890137318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579639319186">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579644438234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579639319186" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579644438234" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />
