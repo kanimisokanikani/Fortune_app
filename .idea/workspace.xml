@@ -8,8 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ec96ce90-e874-490f-93e4-45158e3d9b02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fortune/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneEvaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/fortune/fortuneEvaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/fortune/fortuneHealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneLove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/fortune/fortuneLove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/fortune/fortuneWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/fortune/fortuneWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune/tools/wordBan/wordBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune/tools/wordBan/wordBan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Fortune" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="fortune.main.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="fortune.main.Main" />
       <module name="Fortune" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579720402056</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="地獄脱却">
+      <created>1579795011542</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579795011542</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,22 +216,23 @@
     <MESSAGE value="恋愛占いに着手した&#10;点数システムを作り、できるだけ公平に点数をつけるようにする&#10;童貞ポインツとか質問によって最後の称号が変わるようにする&#10;TODO: 点数の結果によって確立が変わるようにする" />
     <MESSAGE value="童貞チェック表と彼女の人数を記録するようにした&#10;結果発表時に記録に応じて称号が変わるように" />
     <MESSAGE value="細かな修正など" />
-    <option name="LAST_COMMIT_MESSAGE" value="細かな修正など" />
+    <MESSAGE value="地獄脱却" />
+    <option name="LAST_COMMIT_MESSAGE" value="地獄脱却" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579696274474">
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579795328312">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579696274474" />
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579795328312" />
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1578889475687" />
-    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579636179223">
+    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579795326959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579636179223" />
-    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2" timestamp="1579720401783">
+    <state x="457" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1579795326959" />
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2" timestamp="1579795011361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579720401783" />
+    <state x="403" y="23" width="752" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579795011361" />
     <state x="344" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578889389469" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1579791973125">
       <screen x="0" y="0" width="1440" height="900" />
@@ -246,10 +258,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578890137318" />
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579720403808">
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2" timestamp="1579795014774">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579720403808" />
+    <state x="289" y="222" width="792" height="592" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579795014774" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578889393096" />
     <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1578888276349">
       <screen x="0" y="0" width="1440" height="900" />

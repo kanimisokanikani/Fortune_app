@@ -1,6 +1,6 @@
-package fortune.main.fortune;
+package fortune.fortune;
 
-import fortune.main.main.Main; //FQCNのインポート Main Classを使用する時に使う
+import fortune.main.Main; //FQCNのインポート Main Classを使用する時に使う
 
 public class fortuneLove {
     public static void fortune_Love_Question (String name, int age) throws InterruptedException {

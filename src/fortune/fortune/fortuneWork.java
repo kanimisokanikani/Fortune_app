@@ -1,4 +1,4 @@
-package fortune.main.fortune;
+package fortune.fortune;
 
 public class fortuneWork {
 }
