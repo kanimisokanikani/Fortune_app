@@ -232,7 +232,7 @@ public class fortuneLove {
                             Main.fortune_Teller("普通すぎて言うことないわよ!");
 
                             Main.cool_Time(1800);
-                            Main.fortune_Teller("ここきた意味ある？");
+                            Main.fortune_Teller("ここきた意味ある?");
 
                             Main.cool_Time(1900);
                             Main.fortune_Teller("まぁ..おめでとう...");
@@ -250,7 +250,7 @@ public class fortuneLove {
                             Main.fortune_Teller("えぇ...");
 
                             Main.cool_Time(2000);
-                            Main.fortune_Teller("ほんとにぃ？");
+                            Main.fortune_Teller("ほんとにぃ?");
 
                             Main.cool_Time(1800);
                             Main.fortune_Teller("それだけアタックチャンスあったのに");
@@ -278,21 +278,163 @@ public class fortuneLove {
                             girl_Friend = int_Answer;
                         }
 
+                        break;
+
                     case 7 :
                     case 8 :
                     case 9 :
+                        if (virgin == true) { //童貞ならこっち
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller(".");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("..");
+
+                            Main.cool_Time(3000);
+                            Main.fortune_Teller("...");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("あんたそれ本当に彼女?");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("あんたは彼女だと思ってるだけで");
+
+                            Main.cool_Time(2300);
+                            Main.fortune_Teller("女子側は彼氏だと思ってないと思うよ");
+
+                            Main.cool_Time(1900);
+                            Main.fortune_Teller("この童貞拗らせ野郎");
+
+                            fortune_Result += 3;
+                            girl_Friend = int_Answer;
+
+                        } else { //童貞卒業者
+                            Main.cool_Time(1000);
+                            Main.fortune_Teller("割と彼女いたのね・・・");
+
+                            Main.cool_Time(2300);
+                            Main.fortune_Teller("モテる体質なのねぇ...");
+
+                            Main.cool_Time(3000);
+                            Main.fortune_Teller("ふーん・・・");
+
+                            fortune_Result --;
+                            girl_Friend = int_Answer;
+                        }
+
+                        break;
+
                     case 10 :
                     case 11 :
                     case 12 :
                     case 13 :
                     case 14 :
+                        if (virgin == true) { //童貞ならこっち
+                            Main.cool_Time(3500);
+                            Main.fortune_Teller("ダウト!!");
+
+                            Main.cool_Time(2100);
+                            Main.fortune_Teller("あんたみたいな奴に彼女がいるわけないじゃん");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("現実を見ようね");
+
+                            fortune_Result += 4;
+                            girl_Friend = int_Answer;
+
+                        } else { //童貞卒業者
+                            Main.cool_Time(1500);
+                            Main.fortune_Teller("これがモテ期ってやつなのかね");
+
+                            Main.cool_Time(2100);
+                            Main.fortune_Teller("あんたを妬んだ奴が");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("包丁を突きつけて来るかもしれないから");
+
+                            Main.cool_Time(2800);
+                            Main.fortune_Teller("気をつけなさいよ");
+
+                            fortune_Result -= 2;
+                            girl_Friend = int_Answer;
+
+                        }
+
+                        break;
+
                     case 15 :
                     case 16 :
                     case 17 :
                     case 18 :
                     case 19 :
                     case 20 :
+                        if (virgin == true) { //童貞ならこっち
+                            Main.cool_Time(1300);
+                            Main.fortune_Teller("盛大に盛ったわね");
+
+                            Main.cool_Time(2100);
+                            Main.fortune_Teller("ここまで来たら私も許すわよ");
+
+                            Main.cool_Time(1700);
+                            Main.fortune_Teller("醜い童貞野郎さん");
+
+                            fortune_Result += 4;
+                            girl_Friend = int_Answer;
+
+                        } else { //童貞卒業者
+                            Main.cool_Time(1500);
+                            Main.fortune_Teller("...");
+
+                            Main.cool_Time(3500);
+                            Main.fortune_Teller("盛った?");
+
+                            Main.cool_Time(2400);
+                            Main.fortune_Teller("何をしたらそんなに彼女が・・・");
+
+                            Main.cool_Time(1600);
+                            Main.fortune_Teller("レベルが違うわぁ");
+
+                            fortune_Result --;
+                            girl_Friend = int_Answer;
+
+                        }
+
+                        break;
+
                     default :
+                        if (virgin == true) {
+                            Main.cool_Time(400);
+                            Main.fortune_Teller("はいうそー");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("絶対盛ったー");
+
+                            Main.cool_Time(1800);
+                            Main.fortune_Teller("自暴自棄になるなって");
+
+                            Main.cool_Time(2400);
+                            Main.fortune_Teller("あたしがなんとかしてあげるからさ...");
+
+                            fortune_Result += 10;
+                            girl_Friend = int_Answer;
+
+                        } else {
+                            Main.cool_Time(1700);
+                            Main.fortune_Teller("ほんとにぃ?");
+
+                            Main.cool_Time(2000);
+                            Main.fortune_Teller("絶対そんなに居ないだろうし");
+
+                            Main.cool_Time(2700);
+                            Main.fortune_Teller("もしかしたら童貞卒業も嘘なんじゃないの?");
+
+                            Main.cool_Time(2100);
+                            Main.fortune_Teller("あやしいねぇ");
+
+                            fortune_Result += 10;
+                            girl_Friend = int_Answer;
+
+                        }
                 }
             }
             break;

@@ -1,8 +1,7 @@
 package fortune.main.main;
 
-import fortune.tools.wordban.wordBan; //FQCNのインポート wordBan Classを使用する時に使う
+import fortune.tools.wordBan.wordBan; //FQCNのインポート wordBan Classを使用する時に使う
 import fortune.main.fortune.fortuneLove; //FQCNのインポート fortuneLove Classを使用する時に使う
-
 import java.util.concurrent.TimeUnit;
 
 public class Main {
