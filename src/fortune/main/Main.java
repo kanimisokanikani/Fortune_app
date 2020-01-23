@@ -42,7 +42,7 @@ public class Main {
         // 名前尋問タイム //
         //////////////////
 
-        cool_Time(6000);
+        cool_Time(3000);
         fortune_Teller("あなたの苗字は何かしら？");
 
         last_Name = wordBan.name_Scanner("苗字");
