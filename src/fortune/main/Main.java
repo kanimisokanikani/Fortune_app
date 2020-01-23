@@ -23,11 +23,10 @@ public class Main {
         ////////////////////
 
         String prefix = "[時給450円の占い師] ";
-        String last_Name = ""; //苗字
-        String first_Name = ""; //名前
-        String get_Name = ""; //フルネーム
-        int get_Age = 300;
-        String get_Fortune;
+        String last_Name; //苗字
+        String first_Name; //名前
+        String get_Name; //フルネーム
+        int get_Age;
 
 
         //////////////////////
@@ -35,7 +34,7 @@ public class Main {
         //////////////////////
 
         cool_Time(400);
-        System.out.println("[お買い得!! 石原良純レベルでよく当たる! 占いばぁやの店] 錦糸町支店が開店しました");
+        System.out.println("[恋のキューピット(86) 占いばぁやの店] 錦糸町支店が開店しました");
 
 
         //////////////////
@@ -130,53 +129,10 @@ public class Main {
         System.out.println(prefix + get_Age + "歳なんだ");
 
 
-        ///////////////
-        // 占いタイム //
-        ///////////////
+        /////////////////////
+        // Class移行フェーズ //
+        /////////////////////
 
-        cool_Time(3000);
-        fortune_Teller("何を占ってほしいの？ ([]の中の文字を入力してください)");
-        System.out.println("[恋愛]について [仕事]について [健康]について [周囲からの評価]について");
-
-        while (true) {
-            get_Fortune = new java.util.Scanner(System.in).nextLine();
-            switch (get_Fortune) {
-                case "恋愛":
-                    fortuneLove.fortune_Love_Question( get_Name, get_Age );
-                    break;
-
-                case "仕事":
-                    fortune_Teller("まだ開発中よ");
-                    break;
-
-                case "健康":
-                    fortune_Teller("まだ開発中よ");
-                    break;
-
-                case "周囲からの評価":
-                    fortune_Teller("まだ開発中よ");
-                    break;
-
-                case "":
-                    continue;
-
-                default:
-                    cool_Time(1000);
-                    fortune_Teller("天邪鬼みたいな回答してんじゃねぇよ");
-
-                    cool_Time(3000);
-                    fortune_Teller("こんなところですら人を信用出来ないから不幸だなんだ騒いで迷惑かけてるんだろ？");
-
-                    cool_Time(5000);
-                    fortune_Teller("個人情報売られたくなかったらとっとと帰れ");
-
-                    cool_Time(3000);
-                    fortune_Teller("このクソゴミムシ野郎が");
-
-                    cool_Time(500);
-                    break;
-            }
-            break;
-        }
+        fortuneLove.fortune_Love_Question( get_Name, get_Age ); //恋愛占い本編に移動
     }
 }

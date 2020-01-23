@@ -20,8 +20,8 @@ public class fortuneLove {
         // 尋問タイム //
         ///////////////
 
-        Main.cool_Time(1000);
-        Main.fortune_Teller("恋愛について困ってるんだ...");
+        Main.cool_Time(2500);
+        Main.fortune_Teller("恋愛について困ってるのね...");
 
         Main.cool_Time(2000);
         Main.fortune_Teller("こんなところにわざわざやってくるんだから");
@@ -32,7 +32,7 @@ public class fortuneLove {
         Main.cool_Time(1900);
         Main.fortune_Teller("とりあえず質問するわよ");
 
-        Main.cool_Time(00);
+        Main.cool_Time(2000);
         Main.fortune_Teller("あんたは童貞？");
 
         Main.cool_Time(100);
@@ -461,6 +461,11 @@ public class fortuneLove {
 
         }
 
+
+        ///////////////
+        // 尋問タイム //
+        ///////////////
+
         Main.cool_Time(4000);
         Main.fortune_Teller("...");
 
@@ -468,10 +473,34 @@ public class fortuneLove {
         Main.fortune_Teller("次の質問行くよ");
 
 
+        Main.cool_Time(2000);
+        Main.fortune_Teller("5人の中で彼女にするならどの子?");
+
+        Main.cool_Time(4000);
+        Main.fortune_Teller("[顔はいいけど性格が悪い子]");
+
+        Main.cool_Time(4200);
+        Main.fortune_Teller("[顔はあんまりだけど性格が良い子]");
+
+        Main.cool_Time(4400);
+        Main.fortune_Teller("[しっかりしてそうだけど部屋が汚い子]");
+
+        Main.cool_Time(4600);
+        Main.fortune_Teller("[ズボラそうだけど部屋が綺麗な子]");
+
+        Main.cool_Time(6000);
+        Main.fortune_Teller("それとも...[あ た し]");
 
 
 
 
+
+
+
+        //あ た し ？
+        //ちょっとよしなさいよ
+        //からかってみただけよ
+        //あんたが良いって言うなら... ﾎﾟｯ///
 
         //Main.cool_Time(1000);
         //Main.fortune_Teller("ぁたし実わぁ18さぃなんだよね( ´∀｀)");
