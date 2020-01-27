@@ -23,10 +23,11 @@ public class Main {
         ////////////////////
 
         String prefix = "[時給450円の占い師] ";
+
         String last_Name; //苗字
         String first_Name; //名前
         String get_Name; //フルネーム
-        int get_Age;
+        int get_Age; //年齢
 
 
         //////////////////////

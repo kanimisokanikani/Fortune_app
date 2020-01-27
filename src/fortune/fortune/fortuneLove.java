@@ -9,11 +9,14 @@ public class fortuneLove {
         // 変数作成フェーズ //
         ////////////////////
 
-        String string_Answer = "";
-        int int_Answer = -1;
-        boolean virgin;
-        int girl_Friend;
-        int fortune_Result = 0;
+        String string_Answer; //入力するときにのみ使用する変数
+        int int_Answer;
+
+        boolean virgin; //童貞かどうか
+        int girl_Friend; //彼女は何人か
+        String girl_Type; //どんな子がタイプなのか
+
+        int fortune_Result = 0; //占いの確率に関係する変数
 
 
         ///////////////
@@ -126,7 +129,7 @@ public class fortuneLove {
 
         while (true) {
             try {
-                int_Answer = new java.util.Scanner(System.in).nextInt();
+                girl_Friend = new java.util.Scanner(System.in).nextInt();
 
             } catch (Exception e) { //例外が起きたらエラーメッセージを流す
                 Main.cool_Time(1000);
@@ -143,7 +146,7 @@ public class fortuneLove {
 
                 continue;
             }
-            if (0 > int_Answer) { // -1人以下だったら無限ループ
+            if (0 > girl_Friend) { // -1人以下だったら無限ループ
                 Main.cool_Time(1500);
                 Main.fortune_Teller("あんた人生で何をしたら");
 
@@ -161,7 +164,7 @@ public class fortuneLove {
 
                 continue;
             } else { //ここから人数選別
-                switch (int_Answer) {
+                switch (girl_Friend) {
                     case 0 :
                         if (virgin == true) { //童貞チェックで YES だったらこっち
                             Main.cool_Time(1000);
@@ -176,8 +179,8 @@ public class fortuneLove {
                             Main.cool_Time(3000);
                             Main.fortune_Teller("ま、まぁ人生これからよね・・・");
 
-                            girl_Friend = int_Answer;
                             fortune_Result ++; //点数が増えれば増えるほど運が悪くなる
+
                         } else { //童貞では無い場合
                             Main.cool_Time(1500);
                             Main.fortune_Teller("えぇ!?");
@@ -197,7 +200,6 @@ public class fortuneLove {
                             Main.cool_Time(3000);
                             Main.fortune_Teller("まぁいいわ");
 
-                            girl_Friend = int_Answer;
                             fortune_Result += 2;
                         }
 
@@ -219,8 +221,8 @@ public class fortuneLove {
                             Main.cool_Time(4000);
                             Main.fortune_Teller("ファイト");
 
-                            girl_Friend = int_Answer;
                             fortune_Result --; //ボーナス 点数を一つ減らしてあげる
+
                         } else { //童貞卒業者
                             Main.cool_Time(1800);
                             Main.fortune_Teller("...");
@@ -233,8 +235,6 @@ public class fortuneLove {
 
                             Main.cool_Time(2200);
                             Main.fortune_Teller("まぁ..おめでとう...");
-
-                            girl_Friend = int_Answer;
                         }
 
                         break;
@@ -259,7 +259,6 @@ public class fortuneLove {
                             Main.fortune_Teller("あたしゃあ不思議でならないよ");
 
                             fortune_Result += 3;
-                            girl_Friend = int_Answer;
 
                         } else { //童貞卒業者
                             Main.cool_Time(1300);
@@ -272,7 +271,6 @@ public class fortuneLove {
                             Main.fortune_Teller("この調子で頑張んなさいよ");
 
                             fortune_Result --;
-                            girl_Friend = int_Answer;
                         }
 
                         break;
@@ -303,7 +301,6 @@ public class fortuneLove {
                             Main.fortune_Teller("この童貞拗らせ野郎");
 
                             fortune_Result += 3;
-                            girl_Friend = int_Answer;
 
                         } else { //童貞卒業者
                             Main.cool_Time(1000);
@@ -316,7 +313,6 @@ public class fortuneLove {
                             Main.fortune_Teller("ふーん・・・");
 
                             fortune_Result --;
-                            girl_Friend = int_Answer;
                         }
 
                         break;
@@ -337,7 +333,6 @@ public class fortuneLove {
                             Main.fortune_Teller("現実を見ようね");
 
                             fortune_Result += 4;
-                            girl_Friend = int_Answer;
 
                         } else { //童貞卒業者
                             Main.cool_Time(1500);
@@ -353,8 +348,6 @@ public class fortuneLove {
                             Main.fortune_Teller("気をつけなさいよ");
 
                             fortune_Result -= 2;
-                            girl_Friend = int_Answer;
-
                         }
 
                         break;
@@ -376,7 +369,6 @@ public class fortuneLove {
                             Main.fortune_Teller("醜い童貞野郎さん");
 
                             fortune_Result += 4;
-                            girl_Friend = int_Answer;
 
                         } else { //童貞卒業者
                             Main.cool_Time(1500);
@@ -392,8 +384,6 @@ public class fortuneLove {
                             Main.fortune_Teller("レベルが違うわぁ");
 
                             fortune_Result --;
-                            girl_Friend = int_Answer;
-
                         }
 
                         break;
@@ -413,7 +403,6 @@ public class fortuneLove {
                             Main.fortune_Teller("あたしがなんとかしてあげるからさ...");
 
                             fortune_Result += 10;
-                            girl_Friend = int_Answer;
 
                         } else {
                             Main.cool_Time(1700);
@@ -429,15 +418,11 @@ public class fortuneLove {
                             Main.fortune_Teller("あやしいねぇ");
 
                             fortune_Result += 10;
-                            girl_Friend = int_Answer;
-
                         }
                 }
             }
             break;
         }
-
-        int_Answer = -1;
 
         if (girl_Friend == 0) {
             Main.cool_Time(3000);
@@ -458,7 +443,6 @@ public class fortuneLove {
 
             Main.cool_Time(3000);
             Main.fortune_Teller("老いぼれの戯事は聞いちゃくれないだろうけどね...");
-
         }
 
 
@@ -489,17 +473,74 @@ public class fortuneLove {
         Main.fortune_Teller("[ズボラそうだけど部屋が綺麗な子]");
 
         Main.cool_Time(6000);
-        Main.fortune_Teller("それとも...[あ た し]");
+        Main.fortune_Teller("それとも...[あ た し]?");
+
+        Main.cool_Time(600);
+        System.out.println("[]の中の文字を入力してください");
 
 
+        ////////////////////
+        // 悪趣味度チェック //
+        ////////////////////
 
+        while (true) { //1回目の尋問 YESなら陰キャポインツ増加
+            string_Answer = new java.util.Scanner(System.in).nextLine();
+
+            switch (string_Answer) {
+                case "YES":
+                    Main.cool_Time(300);
+                    Main.fortune_Teller("あっ・・・");
+
+                    Main.cool_Time(6000);
+                    Main.fortune_Teller("そうだったんだね・・・");
+
+                    Main.cool_Time(3500);
+                    Main.fortune_Teller("なんかごめんね・・・");
+
+                    girl_Type = string_Answer;
+                    fortune_Result += 2; //点数が増えれば増えるほど運が悪くなる
+
+                    break;
+
+                case "NO":
+                    Main.cool_Time(1000);
+                    Main.fortune_Teller("あんたみたいなやつでも");
+
+                    Main.cool_Time(2200);
+                    Main.fortune_Teller("ヤらせてくれる女はいるんだね...");
+
+                    Main.cool_Time(2500);
+                    Main.fortune_Teller("かわいそ");
+
+                    virgin = false;
+
+                    break;
+
+                case "":
+
+                    continue;
+
+                default:
+                    Main.cool_Time(750);
+                    Main.fortune_Teller("[YES] か [NO] で答えろっつってんじゃん!!");
+
+                    Main.cool_Time(1800);
+                    Main.fortune_Teller("二択すら答えられない無能が!!!!");
+
+                    Main.cool_Time(2000);
+                    Main.fortune_Teller("結局あんたは童貞なの?");
+
+                    continue;
+            }
+            break;
+        }
 
 
 
 
         //あ た し ？
-        //ちょっとよしなさいよ
-        //からかってみただけよ
+        //ちょっとよしなさいよ///
+        //からかってみただけよ///
         //あんたが良いって言うなら... ﾎﾟｯ///
 
         //Main.cool_Time(1000);
